@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#0A0A0A"/>
+  
+  <!-- Advanced Shapes -->
+  <g transform="translate(200,100)">
+    <!-- Character Base -->
+    <g fill="#00FF00" fill-opacity="0.2" stroke="#00FF00" stroke-width="2">
+      <circle cx="200" cy="100" r="80"/> <!-- Head -->
+      <rect x="160" y="190" width="80" height="120"/> <!-- Body -->
+      <line x1="160" y1="220" x2="100" y2="280"/> <!-- Left Arm -->
+      <line x1="240" y1="220" x2="300" y2="280"/> <!-- Right Arm -->
+      <line x1="180" y1="310" x2="160" y2="380"/> <!-- Left Leg -->
+      <line x1="220" y1="310" x2="240" y2="380"/> <!-- Right Leg -->
+    </g>
+  </g>
+  
+  <!-- Color Mixing Illustration -->
+  <g transform="translate(50,50)">
+    <circle cx="50" cy="50" r="30" fill="#00FF00" fill-opacity="0.5"/>
+    <circle cx="80" cy="50" r="30" fill="#00FFFF" fill-opacity="0.5"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="425" fill="#00FF00" font-family="Arial" font-size="24" text-anchor="middle">
+    Character Creation & Color Mixing
+  </text>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#0A0A0A"/>
+  
+  <!-- Complex Scene -->
+  <g transform="translate(100,50)">
+    <!-- Background Elements -->
+    <g fill="#00FF00" fill-opacity="0.1" stroke="#00FF00" stroke-width="1">
+      <rect x="0" y="250" width="600" height="100"/> <!-- Ground -->
+      <path d="M50,250 L150,100 L250,250 Z"/> <!-- Mountain -->
+      <path d="M300,250 L400,50 L500,250 Z"/> <!-- Mountain -->
+    </g>
+    
+    <!-- Complex Character -->
+    <g transform="translate(250,150)" fill="#00FF00" fill-opacity="0.3" stroke="#00FF00" stroke-width="2">
+      <!-- Detailed Character Design -->
+      <circle cx="0" cy="0" r="40"/> <!-- Head -->
+      <path d="M-20,40 C-20,80 20,80 20,40"/> <!-- Body -->
+      <path d="M-20,50 C-40,60 -40,80 -20,90"/> <!-- Left Arm -->
+      <path d="M20,50 C40,60 40,80 20,90"/> <!-- Right Arm -->
+      <path d="M-10,80 L-15,120"/> <!-- Left Leg -->
+      <path d="M10,80 L15,120"/> <!-- Right Leg -->
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="425" fill="#00FF00" font-family="Arial" font-size="24" text-anchor="middle">
+    Complex Scenes & Characters
+  </text>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <!-- Geometric E shape -->
+    <path d="M10,8 L40,8 L40,16 L20,16 L20,24 L35,24 L35,32 L10,32 L10,8" 
+          stroke="#00FF00" 
+          stroke-width="2"
+          class="glow" />
+    <!-- Base line -->
+    <path d="M45,32 L75,32" 
+          stroke="#00FF00" 
+          stroke-width="2"
+          class="glow" />
+    <!-- Create Anything text -->
+    <text x="85" y="28" 
+          font-family="Chakra Petch" 
+          font-size="12" 
+          fill="#00FF00"
+          class="glow">
+      CREATE ANYTHING
+    </text>
+  </g>
+  <style>
+    .glow {
+      filter: drop-shadow(0 0 2px #00FF00) drop-shadow(0 0 4px #00FF00);
+    }
+  </style>
+</svg>

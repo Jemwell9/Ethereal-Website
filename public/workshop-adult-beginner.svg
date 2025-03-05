@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#0A0A0A"/>
+  
+  <!-- Basic Geometric Forms -->
+  <g transform="translate(200,100)" fill="#00FF00" fill-opacity="0.2" stroke="#00FF00" stroke-width="2">
+    <!-- 3D Shapes -->
+    <path d="M0,100 L50,0 L150,0 L200,100 L150,200 L50,200 Z"/> <!-- Hexagon -->
+    <path d="M250,0 L350,0 L350,100 L250,100 Z"/> <!-- Square -->
+    <path d="M400,50 L450,0 L500,50 L450,100 Z"/> <!-- Diamond -->
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="425" fill="#00FF00" font-family="Arial" font-size="24" text-anchor="middle">
+    Foundational 3D Pen Techniques
+  </text>
+</svg>
